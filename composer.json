@@ -1,0 +1,10 @@
+{
+  "name": "bitter/smartbanner",
+  "type": "concrete5-package",
+  "description": "Smartbanner is a Concrete CMS add-on that displays a sleek banner on your website promoting your mobile app from the App Store or Google Play.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\Smartbanner\\": "src/Bitter/Smartbanner"
+    }
+  }
+}
