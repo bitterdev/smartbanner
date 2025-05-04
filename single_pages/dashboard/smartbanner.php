@@ -41,6 +41,8 @@ $fileManager = $app->make(FileManager::class);
     </div>
 </div>
 
+<?php \Concrete\Core\View\View::element("dashboard/did_you_know", [], "smartbanner"); ?>
+
 <form action="#" method="post">´
     <?php echo $token->output("update_settings"); ?>
 
